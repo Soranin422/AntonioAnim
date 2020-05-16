@@ -1,3 +1,6 @@
 body{
   background:#555;
 }
+nav ul li{
+  display:inline-block;
+}
