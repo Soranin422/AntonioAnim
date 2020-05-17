@@ -1,6 +1,116 @@
+a:visited{
+  text-decoration: none;
+}
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  text-shadow: yellow 0 0 25px;
+}
 body{
-  background:#555;
+  background:#333;
+}
+header{
+  color: white;
+  margin: 15px;
+}
+header .logo{
+  width: 50px;
+  position: relative;
+  top: 18px;
+  margin-right: 10px;
+  margin-left: 20px;
+  border-radius: 50%;
+  box-shadow: black 0 0 5px;
+}
+header .current{
+  text-decoration: underline;
+}
+header h1{
+  display: inline;
+  font-family: Georgia, serif;
+  text-shadow: black 0 0 10px;
+}
+nav ul{
+  display: inline;
 }
 nav ul li{
-  display:inline-block;
+  font-family: Georgia, serif;
+  text-shadow: black 0 0 15px;
+  font-size: 20px;
+  display: inline-block;
+  list-style-type: none;
+  padding: 36px 20px;
+  float: right;
+}
+nav ul li a{
+  display: inline;
+  color: white;
+}
+
+
+div .reel{
+  font-family: Georgia, serif;
+  text-shadow: black 0 0 15px;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+div .bio{
+  font-family: Georgia, serif;
+  text-shadow: black 0 0 15px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  margin: 15% 35%;
+}
+
+div iframe{
+  box-shadow: black 0 0 8px;
+  display: block;
+  margin: 0 auto;
+}
+  
+
+footer{
+  font-family: Georgia, serif;
+  display: lnline;
+  text-align: center;
+  margin: 60px 30px 30px 30px;
+}
+footer h1{
+  text-shadow: black 0 0 15px;
+  display: inline;
+  color: white;
+}
+footer ul{
+  display: inline;
+}
+footer ul li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 1%;
+}
+footer ul li a{
+  display: inline-block;
+  text-indent: -99999999px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -20px;
+}
+footer .twitter a{
+  background-image: url("https://i.ya-webdesign.com/images/black-twitter-logo-png-4.png");
+  background-size: 50px;
+}
+footer .youtube a{
+  background-image: url("https://cdn.clipart.email/e6eed6ce6c8196b321c4b27e36d9fc82_youtube-logo-computer-icons-youtube-png-download-512512-_512-512.png");
+  background-size: 50px;
+}
+footer .instagram a{
+  background-image: url("https://www.freepnglogos.com/uploads/instagram-logo-black-png-28.png");
+  background-size: 50px;
 }
